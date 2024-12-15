@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#F5F5F5">
+
+    <!-- Mensagem de boas-vindas -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seja bem-vindo ao StudyTask"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:marginBottom="16dp" />
+
+    <!-- Mensagem para instruir o usuário -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digite seu nome para que possamos checar no Aluno Online"
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:marginBottom="24dp" />
+
+    <!-- Campo para entrada do nome -->
+    <EditText
+        android:id="@+id/name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu nome"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Botão para realizar a checagem -->
+    <Button
+        android:id="@+id/check_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Checar"
+        android:backgroundTint="#6200EE"
+        android:textColor="#FFFFFF"
+        android:padding="10dp" />
+
+</LinearLayout>
